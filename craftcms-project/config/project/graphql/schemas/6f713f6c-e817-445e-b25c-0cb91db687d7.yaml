@@ -1,0 +1,34 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.1bbb044e-bdda-4eb7-aaf6-8d8da6510b58:read' # craftcms-nuxt
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.39e2a6c2-3d4a-4b26-a5b8-24932e23d878:read' # Blogs
+  - 'sections.00a8e28d-349d-4f80-aba0-f5da1fa57781:read' # Pages
+  - 'nestedentryfields.0325eb44-e09f-46c3-905b-854112d7ed69:read' # Components
+  - 'nestedentryfields.7abb027f-08f8-447e-9f15-ddbfd350d36e:read' # Contact Forms
+  - 'volumes.1f72531c-5801-4e9a-a064-628703e2bfd4:read' # Blog Images
+  - 'globalsets.4194776b-3f2e-4549-b98e-055baf44862c:read' # Navigation
+  - 'sections.39e2a6c2-3d4a-4b26-a5b8-24932e23d878:edit' # Blogs
+  - 'sections.39e2a6c2-3d4a-4b26-a5b8-24932e23d878:create' # Blogs
+  - 'sections.39e2a6c2-3d4a-4b26-a5b8-24932e23d878:save' # Blogs
+  - 'sections.39e2a6c2-3d4a-4b26-a5b8-24932e23d878:delete' # Blogs
+  - 'sections.00a8e28d-349d-4f80-aba0-f5da1fa57781:edit' # Pages
+  - 'sections.00a8e28d-349d-4f80-aba0-f5da1fa57781:create' # Pages
+  - 'sections.00a8e28d-349d-4f80-aba0-f5da1fa57781:save' # Pages
+  - 'sections.00a8e28d-349d-4f80-aba0-f5da1fa57781:delete' # Pages
+  - 'nestedentryfields.0325eb44-e09f-46c3-905b-854112d7ed69:edit' # Components
+  - 'nestedentryfields.0325eb44-e09f-46c3-905b-854112d7ed69:create' # Components
+  - 'nestedentryfields.0325eb44-e09f-46c3-905b-854112d7ed69:save' # Components
+  - 'nestedentryfields.0325eb44-e09f-46c3-905b-854112d7ed69:delete' # Components
+  - 'nestedentryfields.7abb027f-08f8-447e-9f15-ddbfd350d36e:edit' # Contact Forms
+  - 'nestedentryfields.7abb027f-08f8-447e-9f15-ddbfd350d36e:create' # Contact Forms
+  - 'nestedentryfields.7abb027f-08f8-447e-9f15-ddbfd350d36e:save' # Contact Forms
+  - 'nestedentryfields.7abb027f-08f8-447e-9f15-ddbfd350d36e:delete' # Contact Forms
+  - 'volumes.1f72531c-5801-4e9a-a064-628703e2bfd4:edit' # Blog Images
+  - 'volumes.1f72531c-5801-4e9a-a064-628703e2bfd4:create' # Blog Images
+  - 'volumes.1f72531c-5801-4e9a-a064-628703e2bfd4:save' # Blog Images
+  - 'volumes.1f72531c-5801-4e9a-a064-628703e2bfd4:delete' # Blog Images
+  - 'globalsets.4194776b-3f2e-4549-b98e-055baf44862c:edit' # Navigation

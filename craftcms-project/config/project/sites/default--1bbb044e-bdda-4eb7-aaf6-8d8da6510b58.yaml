@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: craftcms-nuxt
+primary: true
+siteGroup: 11356900-f701-4cda-8d24-5e9a4dc83b13 # craftcms-nuxt
+sortOrder: 1

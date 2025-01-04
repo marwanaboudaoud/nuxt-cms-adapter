@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: components
+instructions: null
+name: Components
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - b17b9ad3-6aa0-42e8-8ccc-cc65b7fbe1c4 # Header Block
+    - 55f3bbc2-c7a1-4847-9e72-e7be97222fcb # Text Block
+    - 469a57e6-b36b-418d-ba3d-3f6a9e2b40d2 # News Blog
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

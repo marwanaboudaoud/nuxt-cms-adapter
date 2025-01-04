@@ -1,0 +1,95 @@
+dateModified: 1722415428
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:0f4265e7-2508-4d35-a0ee-63c1f657c356'
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+        - ancestors
+        - dateCreated
+        - dateUpdated
+        - drafts
+        - type
+        - id
+        - parent
+        - revisionNotes
+        - section
+        - slug
+        - uid
+        - uri
+      type: native
+email:
+  fromEmail: marwan@wedesignit.nl
+  fromName: craftcms-nuxt
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  blogImages:
+    hasUrls: true
+    name: 'Blog Images'
+    settings:
+      path: /Applications/MAMP/htdocs/front-end/adapters/craftcms/public
+    type: craft\fs\Local
+    url: '@web/assets'
+meta:
+  __names__:
+    00a8e28d-349d-4f80-aba0-f5da1fa57781: Pages # Pages
+    0d51288e-1cb9-4110-abbc-c67d79e71209: 'Phone Number' # Phone Number
+    1bbb044e-bdda-4eb7-aaf6-8d8da6510b58: craftcms-nuxt # craftcms-nuxt
+    1f72531c-5801-4e9a-a064-628703e2bfd4: 'Blog Images' # Blog Images
+    2e3f9ae3-d634-44c7-927d-c0120248f6d3: 'image transform' # image transform
+    3a37abe1-26be-47b1-b031-7fed5dc5ac39: links # links
+    5d74ee94-bf0f-4a0a-aa43-5c0ba1384f14: 'First Name' # First Name
+    6f713f6c-e817-445e-b25c-0cb91db687d7: 'Public Schema' # Public Schema
+    7abb027f-08f8-447e-9f15-ddbfd350d36e: 'Contact Forms' # Contact Forms
+    8d016968-a2b4-4135-99da-78d28e75bf27: Default # Default
+    39e2a6c2-3d4a-4b26-a5b8-24932e23d878: Blogs # Blogs
+    41c2c64f-50bd-42c5-ab01-ab60cafe5c99: Subtitle # Subtitle
+    55f3bbc2-c7a1-4847-9e72-e7be97222fcb: 'Text Block' # Text Block
+    65bad80e-6fb0-4c6d-ab08-b93189cc5fd4: Description # Description
+    0325eb44-e09f-46c3-905b-854112d7ed69: Components # Components
+    469a57e6-b36b-418d-ba3d-3f6a9e2b40d2: 'News Blog' # News Blog
+    480aab74-3ea7-424f-b827-88c07788bf4c: 'Header Links' # Header Links
+    818bd9c8-c887-4092-a1bf-83cf2d8c9513: Home # Home
+    6142ef32-83a4-42df-abb5-09e4e528e007: City # City
+    4194776b-3f2e-4549-b98e-055baf44862c: Navigation # Navigation
+    6275014b-4e0d-44f1-ae29-2dac3d16bc75: 'Blog Post' # Blog Post
+    11356900-f701-4cda-8d24-5e9a4dc83b13: craftcms-nuxt # craftcms-nuxt
+    58653572-b25b-4fa3-9a88-85d143ef6a1e: 'Last Name' # Last Name
+    b6ccd6b0-8463-4be4-b7c3-c1dede841fcb: 'Blog Links' # Blog Links
+    b17b9ad3-6aa0-42e8-8ccc-cc65b7fbe1c4: 'Header Block' # Header Block
+    c1bdf2c4-df6b-4750-ab2f-c468ac56d8e9: customUri # customUri
+    e53dc49a-e142-4fab-9584-4deff52f765d: 'contact Form' # contact Form
+    edcf8291-5530-4b2e-b9e8-ecf47ef534ea: Image # Image
+    ef49c480-2068-4003-ab43-a2e9d6ff0616: Stats # Stats
+    f5146744-cbea-45a9-9e9e-d5e28fbc0e2d: 'pages Default' # pages Default
+plugins:
+  webhooks:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.4.0
+    settings:
+      disableAllWebhooks: false
+      initialDelay: null
+      maxAttempts: 1
+      maxDepth: 5
+      purgeDuration: 604800
+      retryDelay: 60
+system:
+  edition: solo
+  live: true
+  name: craftcms-nuxt
+  schemaVersion: 5.0.0.21
+  timeZone: America/Los_Angeles

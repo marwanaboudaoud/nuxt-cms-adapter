@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: contactforms
+instructions: null
+name: 'Contact Forms'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - e53dc49a-e142-4fab-9584-4deff52f765d # contact Form
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
